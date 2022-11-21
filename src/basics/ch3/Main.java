@@ -37,7 +37,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] myArray = new int[]{ 3 , 2, -3, 5, -2, 3, 0};
+        int[] myArray = new int[]{ 3 , 2, -3, 5, -2, 3, 0, 5, -5, 7};
 
         for(int i = 0; i<myArray.length; i++) {
             System.out.print(myArray[i] + " ");
