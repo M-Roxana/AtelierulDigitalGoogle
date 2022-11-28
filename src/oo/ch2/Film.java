@@ -5,4 +5,9 @@ public class Film {
     private String nume;
     private Actor[] actori;
 
+    public Film (Integer anAparitie, String nume, Actor[] actori){
+        this.anAparitie = anAparitie;
+        this.nume = nume;
+        this.actori = actori ;
+    }
 }
