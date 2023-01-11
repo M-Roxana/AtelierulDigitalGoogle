@@ -1,8 +1,16 @@
-import java.util.Arrays;
+public class Main extends Thread{
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("args = " + Arrays.deepToString(args));
-
+    public void run(){
+        for( int i = 1; i<3; i++){
+            System.out.println( i + "..");
+        }
     }
+
+    public static void main( String[] args){
+        Main t = new Main();
+        t.run();
+    }
+
 }
+
+
