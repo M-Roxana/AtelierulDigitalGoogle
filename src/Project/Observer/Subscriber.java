@@ -16,7 +16,7 @@ public class Subscriber implements ISubscriber{
     @Override
     public void getUpdate() {
         List<String> videoTitles = this.youTubeChannel.getVideoTitles();
-        System.out.println("Notification for " + name +" :video  "+ Arrays.toString(videoTitles.toArray()) + " is new added on the channel");
+        System.out.println("Notification for " + name +" :video  "+ Arrays.toString(videoTitles.toArray()) + " is uploaded on the channel");
     }
 }
 
